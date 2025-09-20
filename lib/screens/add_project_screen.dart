@@ -120,7 +120,7 @@ class _AddProjectScreenState extends State<AddProjectScreen> {
                     ),
                     const SizedBox(height: 16),
                     DropdownButtonFormField<String>(
-                      value: _selectedArduinoType,
+                      initialValue: _selectedArduinoType,
                       decoration: const InputDecoration(
                         labelText: 'Arduino Type',
                         border: OutlineInputBorder(),
@@ -140,7 +140,7 @@ class _AddProjectScreenState extends State<AddProjectScreen> {
                     ),
                     const SizedBox(height: 16),
                     DropdownButtonFormField<String>(
-                      value: _selectedCommunicationType,
+                      initialValue: _selectedCommunicationType,
                       decoration: const InputDecoration(
                         labelText: 'Communication Type',
                         border: OutlineInputBorder(),

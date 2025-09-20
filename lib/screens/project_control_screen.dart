@@ -17,7 +17,7 @@ class _ProjectControlScreenState extends State<ProjectControlScreen> {
   bool _isConnected = false;
   bool _isConnecting = false;
   String _connectionStatus = 'Disconnected';
-  List<String> _logs = [];
+  final List<String> _logs = [];
 
   @override
   void initState() {
