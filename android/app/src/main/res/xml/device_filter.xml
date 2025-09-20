@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Arduino Uno -->
+    <usb-device vendor-id="2341" product-id="0043" />
+    <usb-device vendor-id="2341" product-id="0001" />
+    
+    <!-- Arduino Mega 2560 -->
+    <usb-device vendor-id="2341" product-id="0042" />
+    <usb-device vendor-id="2341" product-id="0010" />
+    
+    <!-- Arduino Leonardo -->
+    <usb-device vendor-id="2341" product-id="8036" />
+    <usb-device vendor-id="2341" product-id="0036" />
+    
+    <!-- Arduino Nano (FTDI) -->
+    <usb-device vendor-id="1027" product-id="24577" />
+    
+    <!-- Arduino Pro Mini (FTDI) -->
+    <usb-device vendor-id="1027" product-id="24593" />
+    
+    <!-- Generic FTDI devices -->
+    <usb-device vendor-id="1027" />
+    
+    <!-- CH340/CH341 USB to Serial (commonly used in Arduino clones) -->
+    <usb-device vendor-id="6790" product-id="29987" />
+    <usb-device vendor-id="6790" />
+    
+    <!-- CP210x USB to Serial (Silicon Labs) -->
+    <usb-device vendor-id="4292" />
+    
+    <!-- ESP32 development boards -->
+    <usb-device vendor-id="4292" product-id="60000" />
+    <usb-device vendor-id="4292" product-id="60002" />
+    
+    <!-- Generic CDC devices -->
+    <usb-device class="2" />
+</resources>
