@@ -320,6 +320,7 @@ class _ProjectControlScreenState extends State<ProjectControlScreen> {
       );
     } catch (e) {
       _addLog('Connection error: $e');
+      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Failed to connect: $e')),
       );

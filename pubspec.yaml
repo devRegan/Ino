@@ -1,3 +1,53 @@
+# name: arduino_project_hub
+# description: Manage and control multiple Arduino projects from one Flutter app
+# version: 1.0.0+1
+
+# environment:
+#   sdk: '>=3.0.0 <4.0.0'
+#   flutter: ">=3.10.0"
+
+# dependencies:
+#   flutter:
+#     sdk: flutter
+  
+#   # State Management
+#   provider: ^6.1.1
+  
+#   # Database
+#   sqflite: ^2.3.0
+#   path: ^1.8.3
+  
+#   # JSON Handling
+#   json_annotation: ^4.8.1
+  
+#   # File Operations
+#   file_picker: ^10.3.3
+#   path_provider: ^2.1.1
+  
+#   # USB Communication (Optional - can be added later)
+#   # usb_serial: ^0.5.2  # Uncomment when ready to test USB features
+  
+#   # Permissions
+#   permission_handler: ^11.1.0
+  
+#   # UI Components
+#   cupertino_icons: ^1.0.2
+#   flutter_colorpicker: ^1.0.3
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+#   flutter_lints: ^3.0.0
+#   json_serializable: ^6.7.1
+#   build_runner: ^2.4.7
+
+# flutter:
+#   uses-material-design: true
+#   # Uncomment assets when you create the directories
+#   # assets:
+#   #   - assets/icons/
+#   #   - assets/examples/
+
 name: arduino_project_hub
 description: Manage and control multiple Arduino projects from one Flutter app
 version: 1.0.0+1
@@ -21,29 +71,30 @@ dependencies:
   json_annotation: ^4.8.1
   
   # File Operations
-  file_picker: ^6.1.1
+  file_picker: ^10.3.3
   path_provider: ^2.1.1
   
-  # USB Communication (Optional - can be added later)
-  # usb_serial: ^0.5.2  # Uncomment when ready to test USB features
+  # USB Communication (Optional)
+  # usb_serial: ^0.5.2
   
   # Permissions
-  permission_handler: ^11.1.0
+  permission_handler: ^12.0.1
   
   # UI Components
   cupertino_icons: ^1.0.2
   flutter_colorpicker: ^1.0.3
 
+  # Pinned to Flutter SDK versions
+  characters: 1.4.0
+  material_color_utilities: 0.11.1
+  meta: 1.16.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^6.0.0
   json_serializable: ^6.7.1
   build_runner: ^2.4.7
 
 flutter:
   uses-material-design: true
-  # Uncomment assets when you create the directories
-  # assets:
-  #   - assets/icons/
-  #   - assets/examples/
